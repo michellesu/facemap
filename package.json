@@ -1,0 +1,21 @@
+{
+  "name": "facemap",
+  "version": "1.0.0",
+  "description": "a map of faces",
+  "main": "facemap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lidiyf/facemap.git"
+  },
+  "author": "Lidi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lidiyf/facemap/issues"
+  },
+  "homepage": "https://github.com/lidiyf/facemap#readme"
+}

@@ -1,7 +1,5 @@
 // facemap.js
 
-// export GOOGLE_APPLICATION_CREDENTIALS=/home/user/lidy/sbhacks/facemap-de273ac7b058.json
-
 // Imports the Google Cloud client library
 const vision = require('@google-cloud/vision');
 
@@ -10,7 +8,7 @@ const client = new vision.ImageAnnotatorClient();
 
 // Performs label detection on the image file
 client
-  .labelDetection('./resources/wakeupcat.jpg')
+  .labelDetection('cal.jpeg')
   .then(results => {
     const labels = results[0].labelAnnotations;
 
